@@ -5,7 +5,7 @@
 
 # 🧠 Análisis Plume Network
 
-Este análisis forma parte de la serie `Diario_de_un_farmer`, donde documento mis decisiones como analista y farmer en Web3.
+Este análisis forma parte de la serie `Diario_de_un_farmer`, donde documento mis decisiones en Web3.
 
 ## 🚀 1. ¿Qué es Plume Network?
 Plume es una blockchain pública, compatible con la Máquina Virtual de Ethereum (EVM), diseñada para impulsar la próxima evolución de los Activos del Mundo Real (Real World Assets, RWA). No se limita a la simple tokenización de activos: su objetivo es permitir que puedan usarse de forma nativa como criptomonedas — permitiendo staking, intercambios, préstamos, préstamos apalancados (looping) y más.
@@ -31,7 +31,7 @@ Otro punto destacado es que **Grayscale** incluyó a Plume en su listado de acti
 ## 📊 2. Objetivos del notebook
 
 1. **Inventariar y documentar** las APIs de Plume  
-2. **Explorar** mis datos de wallet y PP (Plume Points)  
+2. **Explorar** los datos de mi wallet y PP (Plume Points)  
 3. **Identificar** las acciones más rentables para farmear PP  
 4. **Diseñar** estrategias eficientes para la Season 2 del airdrop  
 5. **Extraer insights** prácticos para recursos limitados  
@@ -55,7 +55,7 @@ Otro punto destacado es que **Grayscale** incluyó a Plume en su listado de acti
 Son puntos otorgados por interactuar con diferentes dApps (Bridge, DEX, Lending, etc.) o participar en campañas. Existen dos categorías:
 
 1. **Self PP:** generados por la propia actividad en la red.  
-2. **Referral PP:** obtenidos al invitar usuarios; solo aplican si los referidos realizan acciones.
+2. **Referral PP:** obtenidos en función a la actividad de los usuarios invitados.
 
 > ⚠️ La asignación de PP no es lineal ni perfectamente predecible: la misma acción un día puede otorgar distinta cantidad de puntos en otra ocasión.
 
@@ -75,7 +75,7 @@ Son puntos otorgados por interactuar con diferentes dApps (Bridge, DEX, Lending,
 | Uso                                                  | Notas                                                                                                 | Enlace                                                                                           |
 |-------------------------------------------------------|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | Mostrar el leaderboard general                        | Se pueden modificar los parámetros `offset` (posición inicial) y `count` (cantidad de resultados).    | https://portal-api.plume.org/api/v1/stats/leaderboard?offset=3600&count=10&walletAddress=undefined&overrideDay1Override=false&preview=false |
-| Ver las 3 actividades que más generaron PP ayer       | Usa el parámetro `walletAddress=` con cualquier wallet para obtener resultados personalizados.        | https://portal-api.plume.org/api/v1/stats/pp-totals/?walletAddress=0xE3c55E0c1E9170d9531Fb6A5F9c6442AD46D50F4 |
+| Ver las 3 actividades que más generaron PP ayer       | Usa el parámetro `walletAddress=` con cualquier wallet para obtener resultados personalizados.        | https://portal-api.plume.org/api/v1/stats/pp-totals/?walletAddress=0xff0c6444cb0fa6121a85e838219354bfe2e1556b |
 
 ---
 
@@ -131,16 +131,8 @@ La API del leaderboard resulta especialmente valiosa, ya que nos permite extraer
 | 08/07/2025 | 646 452 841 | 0.2320   |  9 608 998      | –1.48 %              |
 | 09/07/2025 | 654 351 972 | 0.2292   |  7 899 131      | –1.20 %              |
 > 🧮 **Nota técnica:**  
-> La **variación diaria (%)** del ratio **PP/PLUME** la calculé con la siguiente fórmula:
->
-> \[
-> \text{Variación \%} = \frac{\text{PP/PLUME}_{\text{hoy}} - \text{PP/PLUME}_{\text{ayer}}}{\text{PP/PLUME}_{\text{ayer}}} \times 100
-> \]
->
-> Esta métrica permite entender qué tan rápido se está diluyendo el valor de los puntos (PP) en relación a la cantidad total de tokens PLUME asignados para la Season 2.
-
-
-El ratio **PP/PLUME** se calcula de manera directa: basta con dividir la asignación total de 150 M de PLUME entre el total de PP emitidos en cada fecha. Con esto en mano, podemos entender mejor la dinámica de emisión y anticipar cómo se comportará el farming a lo largo de la campaña.
+> La **variación diaria (%)** del ratio **PP/PLUME** permite entender qué tan rápido se está diluyendo el valor de los puntos (PP) en relación a la cantidad total de tokens PLUME asignados para la Season 2.
+>El ratio **PP/PLUME** se calcula de manera directa: basta con dividir la asignación total de 150 M de PLUME entre el total de PP emitidos en cada fecha. Con esto en mano, podemos entender mejor la dinámica de emisión y anticipar cómo se comportará el farming a lo largo de la campaña.
 
 ---
 
@@ -182,7 +174,7 @@ Tras analizar las actividades más comunes de las wallets mejor posicionadas, no
 - Hacen **staking** con cantidades considerables de $PLUME.  
 - Depositan **pUSD en el nALPHA Vault** y luego esos tokens se usan dentro de **Royco**.
 
-Siguiendo esta lógica —y adaptándola a mi capital limitado— decidí implementar una versión optimizada de esta estrategia.
+Siguiendo esta lógica y adaptándola a mi capital limitado decidí implementar una versión optimizada de esta estrategia.
 
 
 
@@ -269,7 +261,7 @@ Para mantener una presencia activa y constante en el ecosistema, realizo diariam
 
 Todo el análisis y los scripts complementarios están disponibles en el repositorio. Para abrir directamente el notebook con todo el código y las visualizaciones, haz clic aquí:
 
-🔗 [Abrir `Plume_network/Notebook.ipynb`](./Plume_network/Notebook.ipynb)
+🔗 [Abrir `Notebook.ipynb`](./Notebook.ipynb)
 
 Si abres este enlace en GitHub, verás el notebook renderizado con las celdas de código y las gráficas integradas
 
