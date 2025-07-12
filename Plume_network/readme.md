@@ -5,7 +5,7 @@
 
 # 🧠 Análisis Plume Network
 
-Este análisis forma parte de la serie `wallet_autopsy`, donde documento mis decisiones como analista y farmer en Web3.
+Este análisis forma parte de la serie `Diario_de_un_farmer`, donde documento mis decisiones como analista y farmer en Web3.
 
 ## 🚀 1. ¿Qué es Plume Network?
 Plume es una blockchain pública, compatible con la Máquina Virtual de Ethereum (EVM), diseñada para impulsar la próxima evolución de los Activos del Mundo Real (Real World Assets, RWA). No se limita a la simple tokenización de activos: su objetivo es permitir que puedan usarse de forma nativa como criptomonedas — permitiendo staking, intercambios, préstamos, préstamos apalancados (looping) y más.
