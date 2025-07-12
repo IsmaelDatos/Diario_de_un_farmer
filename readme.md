@@ -1,13 +1,13 @@
-# 📓 Diario de un Farmer 🚜💰
+# 📓 Diario de un Farmer
 ![Twitter Banner](https://pbs.twimg.com/profile_banners/889726063076548609/1737696048/1500x500)
 Este repositorio es mi diario personal donde documento mi camino y estrategias en el mundo Web3.
 
-Actualmente me enfoco en farming de airdrops y yield, pero conforme vaya avanzando explorare y documentare otros ecosistemas, dapps, protocolos y estrategias.
+Actualmente me enfoco en farming de airdrops y yield, pero conforme vaya avanzando exploraré y documentaré otros ecosistemas, dapps, protocolos y estrategias.
 
 ## 🚀 ¿Qué encontrarás aquí?
 
 - 💡 Análisis honestos y sin filtros de mis interacciones en protocolos y cadenas.
-- 📈 Estrategias prácticas para farming de airdrops, yield farming, pools de liquidez, looping y más  
+- 📈 Estrategias prácticas para farming de airdrops, yield farming, looping y más  
 - 📊 Datos, gráficos y aprendizajes reales, especialmente útiles para quienes tienen recursos limitados  
 
 ---
