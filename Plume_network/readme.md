@@ -29,9 +29,9 @@
 | 24/07/2025 | 883 418 369 | 0.1697   | 33 358 981      | -3,7761%                    |
 | 25/07/2025 | 918 801 637 | 0.1632   | 35 383 268      | -3,8510%                    |
 | 26/07/2025 | 944 463 056 | 0.1588   | 25 661 419      | -2,7170%                    |
+| 27/07/2025 | 970 165 423 | 0,1546   | 25 702 367      | -2,6492%                    |
 
 
-| 21/07/2025 | 784 018 577 | 0.1913   | 20 913 125      | -2,6674%                    |
 > ⚠️ **Disclaimer:**  
 > Este análisis es solo un proyecto personal y un hobby. No constituye asesoría financiera ni recomendación de inversión.  
 > Siempre realiza tu propia investigación (DYOR) antes de tomar cualquier decisión relacionada con criptomonedas o DeFi.  
