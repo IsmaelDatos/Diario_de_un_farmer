@@ -31,7 +31,7 @@
 | 26/07/2025 | 944 463 056 | 0.1588   | 25 661 419      | -2,7170%                    |
 | 27/07/2025 | 970 165 423 | 0.1546   | 25 702 367      | -2,6492%                    |
 | 28/07/2025 | 1 012 137 592 | 0.1482   | 41 972 169      | -4,1468%                    |
-
+| 29/07/2025 | 1 042 582 274 | 0.1438   | 30 444 682      | -2,9201%                    |
 
 > ⚠️ **Disclaimer:**  
 > Este análisis es solo un proyecto personal y un hobby. No constituye asesoría financiera ni recomendación de inversión.  
