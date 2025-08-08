@@ -2,7 +2,9 @@
 
 ---
 
-## 📊 Plume Points (Actualizado)
+<details>
+<summary>📊 Plume Points (Actualizado)</summary>
+<br>
 
 | Fecha      | PP totales  | PP/PLUME | Puntos emitidos | Variación diaria (PP/PLUME(%)) |
 |------------|-------------|----------|------------------|-------------------------------|
@@ -45,6 +47,10 @@
 
 
 
+
+</details>
+
+
 > ⚠️ **Disclaimer:**  
 > Este análisis es solo un proyecto personal y un hobby. No constituye asesoría financiera ni recomendación de inversión.  
 > Siempre realiza tu propia investigación (DYOR) antes de tomar cualquier decisión relacionada con criptomonedas o DeFi.  
@@ -55,8 +61,7 @@
 ## 🗺️ Índice
 
 - [🧠 Análisis Plume Network](#-análisis-plume-network)
-  - [📊 Plume Points (Actualizado)](#-plume-points-actualizado)
-  - [🗺️ Índice](#️-índice)
+  - [�️ Índice](#️-índice)
   - [🚀 1. ¿Qué es Plume Network?](#-1-qué-es-plume-network)
     - [🏢 Reconocimiento institucional](#-reconocimiento-institucional)
   - [📊 2. Objetivos del notebook](#-2-objetivos-del-notebook)
