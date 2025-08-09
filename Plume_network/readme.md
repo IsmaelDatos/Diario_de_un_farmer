@@ -3,7 +3,7 @@
 ---
 
 <details>
-<summary>📊 Plume Points (Actualizado)</summary>
+<summary><h3>📊 Plume Points (Actualizado)</h3> </summary>
 <br>
 
 | Fecha      | PP totales  | PP/PLUME | Puntos emitidos | Variación diaria (PP/PLUME(%)) |
@@ -42,8 +42,8 @@
 | 04/08/2025 | 1 225 607 057 | 0.1223   | 25 240 272      | -2.0594%                    |
 | 05/08/2025 | 1 242 062 279 | 0.1207   | 16 455 222      | -1.3248%                    |
 | 06/08/2025 | 1 259 559 285 | 0.1190   | 17 497 006      | -1.3891%                    |
-| 07/08/2025 | 1 272 721 771 | 0.1178   | 13 162 486      | -1,0341%                    |
-
+| 07/08/2025 | 1 272 721 771 | 0.1178   | 13 162 486      | -1.0341%                    |
+| 08/08/2025 | 1 285 392 726 | 0.1166   | 12 670 955      | -0.9857%                    |
 
 
 
@@ -61,7 +61,7 @@
 ## 🗺️ Índice
 
 - [🧠 Análisis Plume Network](#-análisis-plume-network)
-  - [�️ Índice](#️-índice)
+  - [🗺️ Índice](#️-índice)
   - [🚀 1. ¿Qué es Plume Network?](#-1-qué-es-plume-network)
     - [🏢 Reconocimiento institucional](#-reconocimiento-institucional)
   - [📊 2. Objetivos del notebook](#-2-objetivos-del-notebook)
