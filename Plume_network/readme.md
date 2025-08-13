@@ -3,7 +3,9 @@
 ---
 
 <details>
-<summary><h3>📊 Plume Points (Actualizado)</h3> </summary>
+
+<summary><h3>📊 Plume Points (Hacer click para ver)</h3> </summary>
+
 <br>
 
 | Fecha      | PP totales  | PP/PLUME | Puntos emitidos | Variación diaria (PP/PLUME(%)) |
@@ -48,6 +50,7 @@
 | 10/08/2025 | 1 303 105 287 | 0.1151   |  7 694 966      | -0.5905%                    |
 | 11/08/2025 | 1 327 580 193 | 0.1129   | 23 216 679      | -1.7487%                    |
 | 12/08/2025 | 1 337 176 850 | 0.1121   |  9 596 657      | -0.7176%                    |
+| 13/08/2025 | 1 345 599 552 | 0.1114   |  8 422 702      | -0.6259%                    |
 
 
 </details>
