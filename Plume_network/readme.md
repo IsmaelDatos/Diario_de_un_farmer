@@ -94,6 +94,10 @@
     - [🔁 Actividades diarias mínimas](#-actividades-diarias-mínimas)
   - [🗂️ 11. Ubicación del código fuente](#️-11-ubicación-del-código-fuente)
   - [🧾 12. Conclusión](#-12-conclusión)
+  - [🔍 13. Análisis de sybils y redes (snapshot 20 Ago 2025)](#-13-análisis-de-sybils-y-redes-snapshot-20-ago-2025)
+    - [📂 Flujo de análisis](#-flujo-de-análisis)
+    - [📊 Estadísticas Generales](#-estadísticas-generales)
+    - [🌐 Redes](#-redes)
 
 ---
 
@@ -331,3 +335,61 @@ Este análisis no intenta prometer ganancias rápidas ni vender humo. Es solo un
 <p align="center">
   👉 <a href="https://portal.plume.org/?referrer=XanthicReliablePot183">Ir al portal de Plume S2</a>
 </p>
+
+
+
+
+---
+
+## 🔍 13. Análisis de sybils y redes (snapshot 20 Ago 2025)
+
+Han pasado algunas semanas desde que puse el primer commit en este diario, asi que vamos con las actualizaciones. Este apartado corresponde al trabajo de detección de **sybils** en Plume Network.  
+Los datos provienen del archivo [`data/plume_networks.json`](./data/plume_networks.json), generado con los notebooks de la **fase 1 a fase 4** en `Parte2_sybils.ipynb`.
+
+### 📂 Flujo de análisis
+
+1. **Fase 1** → Extracción de wallets (`plume_wallets.json`).  
+2. **Fase 2** → Enriquecimiento con XP, transacciones y actividad (`plume_wallets_enriched.json`).  
+3. **Fase 3** → Construcción de las redes de referidos y generación del árbol (`plume_networks.json`).  
+4. **Fase 4** → Análisis agregado: estadísticas globales, sybils por red, % de XP comprometido, etc.
+
+### 📊 Estadísticas Generales
+
+- **Total de wallets:** 247,761  
+  - 🕵️ **Wallets Sybil:** 166,093 (67.04%)  
+  - ✅ **Wallets Legítimas:** 81,668 (32.96%)  
+
+- **XP total acumulado:** 1,444,431,850  
+  - 🕵️ **XP Sybil:** 267,286,468 (18.50%)  
+  - ✅ **XP Legítimo:** 1,177,145,382 (81.50%)  
+
+### 🌐 Redes
+
+- **Total de redes:** 105,399  
+- **Redes con >80% sybil:** 72,541  
+
+🏆 **Top 3 redes más grandes (por número de wallets):**  
+1. Root: `0x87cb894a65be758f1624ccd9c6dc0716e97c5fec`  
+   - Wallets: 33,938  
+   - XP: 7,040,950  
+   - % Sybil: 100.00%  
+
+2. Root: `0x53ab2038ad0a68b986cc43e5c4fa66457886dcd4`  
+   - Wallets: 9,816  
+   - XP: 8,737,271  
+   - % Sybil: 98.31%  
+
+3. Root: `0x537e466b329f5f439059e69ad8d144637fd461d4`  
+   - Wallets: 5,027  
+   - XP: 26,209,243  
+   - % Sybil: 75.15%  
+
+📌 **Insights adicionales:**  
+- Promedio de wallets por red: 2.35  
+- Red más grande contiene 33,938 wallets  
+- Red más pequeña contiene 1 wallet  
+
+---
+
+> 📅 **Nota:** Este análisis corresponde a un snapshot tomado el **20 de agosto de 2025**.  
+> En el futuro, los resultados podrían variar conforme se detecten más wallets y se actualice la base de datos.
